@@ -5,7 +5,7 @@ import com.notification.Notifier;
 import com.notification.SmsNotifier;
 import com.service.CustomerActivationService;
 
-public class Main {
+public class Main {  
 	
 	public static void main(String args[]) {
 		Customer cliente1 = new Customer("Joao","joao@email.com","78879879");

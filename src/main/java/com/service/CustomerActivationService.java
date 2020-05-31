@@ -10,7 +10,7 @@ import com.notification.UrgencyLevel;
 
 @Component
 public class CustomerActivationService {
-	
+	  
 	@NotificationType(UrgencyLevel.NORMAL)
 	@Autowired
 	private Notifier notifier;

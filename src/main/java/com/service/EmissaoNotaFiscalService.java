@@ -6,7 +6,7 @@ import com.notification.EmailNotifier;
 
 public class EmissaoNotaFiscalService {
 	
-	
+	  
 	public void emit(Customer customer,Product product) {
 		
 		EmailNotifier notificador = new EmailNotifier();
