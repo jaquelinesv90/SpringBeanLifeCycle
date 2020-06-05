@@ -6,7 +6,7 @@ public class Customer {
 	private String email;
 	private String telephone;
 	private boolean active;
-
+   
 	
 	public Customer(String name, String email, String telephone) {
 		this.name = name;

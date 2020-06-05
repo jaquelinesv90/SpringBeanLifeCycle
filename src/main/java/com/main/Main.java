@@ -13,7 +13,7 @@ public class Main {
 		
 		Notifier notificador = new SmsNotifier();
 		
-		CustomerActivationService ativacao = new CustomerActivationService(notificador);
+		CustomerActivationService ativacao = new CustomerActivationService();
 		ativacao.ativar(cliente1);
 		ativacao.ativar(cliente2);
 	}
