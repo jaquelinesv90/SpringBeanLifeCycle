@@ -12,6 +12,10 @@ import com.notification.UrgencyLevel;
  ciclo de vida são as fases desde a existencia deste bean(surgimento)
  da instancia deste bean, até onde ele deixa de existir no container.
  tem 3 fases: inicialização, uso, destruição;
+ 
+ Podemos implementar métodos de callback(chamada) dos ciclos de vida,
+ esses métodos nós declaramos e eles são chamados pelo próprio container
+ quando passa por alguma fase do ciclo.
 
  Quando você usa injeção de dependência baseada em setter, o método
  init torna possível executar a inicialização: o método especificado 
