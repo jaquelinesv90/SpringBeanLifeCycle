@@ -8,7 +8,7 @@ import com.model.Customer;
 import com.notification.NotificationType;
 import com.notification.Notifier;
 import com.notification.UrgencyLevel;
-/**
+/**  
  ciclo de vida são as fases desde a existencia deste bean(surgimento)
  da instancia deste bean, até onde ele deixa de existir no container.
  tem 3 fases: inicialização, uso, destruição;

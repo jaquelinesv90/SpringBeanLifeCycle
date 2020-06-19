@@ -6,7 +6,9 @@ public class Product {
 	 
 	private String name;
 	private BigDecimal totalValue;
-	   
+	
+	public Product() {}
+	
 	public Product(String name,BigDecimal totalValue) {
 		super();
 		this.name = name;
