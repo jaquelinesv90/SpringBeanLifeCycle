@@ -4,7 +4,7 @@ import com.model.Customer;
 import com.notification.Notifier;
 import com.notification.SmsNotifier;
 import com.service.CustomerActivationService;
-
+    
 /*
 * Verificar a classe CustomerActivationService para informações
 */  

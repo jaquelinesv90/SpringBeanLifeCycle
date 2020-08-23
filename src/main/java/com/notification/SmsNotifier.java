@@ -3,7 +3,7 @@ package com.notification;
 import org.springframework.stereotype.Component;
 
 import com.model.Customer;
-
+   
 @NotificationType(UrgencyLevel.NORMAL)
 @Component
 public class SmsNotifier implements Notifier{
