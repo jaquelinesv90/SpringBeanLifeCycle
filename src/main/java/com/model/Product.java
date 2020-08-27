@@ -1,5 +1,5 @@
 package com.model;
-
+    
 import java.math.BigDecimal;
    
 public class Product {

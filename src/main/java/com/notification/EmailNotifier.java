@@ -1,9 +1,9 @@
 package com.notification;
-
+    
 import org.springframework.stereotype.Component;
 
 import com.model.Customer;
-   
+      
 @NotificationType(UrgencyLevel.PRIORITY)
 @Component
 public class EmailNotifier implements Notifier{
